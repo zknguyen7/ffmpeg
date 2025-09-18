@@ -1,14 +1,14 @@
 FFMPEG TUTORIAL
 
 # 1. Convert Video
-- Video -> video
-+ ffmpeg -i video_in.mp4 video_out.flv ( convert to flv )
+### Video -> video
+- ffmpeg -i video_in.mp4 video_out.flv ( convert to flv )
 
-- Video -> audio
-    ffmpeg -i video_in.mp4 sound.mp3 ( convert to mp3 )
+### Video -> audio
+- ffmpeg -i video_in.mp4 sound.mp3 ( convert to mp3 )
 
-- Audio -> audio
-    ffmpeg -i sound.mp3 sound.wav
+### Audio -> audio
+- ffmpeg -i sound.mp3 sound.wav
 
 # 2. Change bitrate
 ## 2.1 Khái niệm bitrate
