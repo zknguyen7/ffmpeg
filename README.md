@@ -19,14 +19,14 @@ FFMPEG TUTORIAL
 - Resulotion ( là độ phân giải )
 
 ## 2.2 Change bitrate
-- Change bitrate Audio
-    ffmpeg -i sound.mp3 -b:a 96k sound_out.mp3
+### Change bitrate Audio
+- ffmpeg -i sound.mp3 -b:a 96k sound_out.mp3
 
-- Change bitrate Video
-    ffmpeg -i
+### Change bitrate Video
+- ffmpeg -i
 
-- Change bitrate Audio + Video
-    ffmpeg -i
+### Change bitrate Audio + Video
+- ffmpeg -i
 
 
 
