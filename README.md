@@ -23,10 +23,10 @@ FFMPEG TUTORIAL
 - ffmpeg -i sound.mp3 -b:a 96k sound_out.mp3
 
 ### Change bitrate Video
-- ffmpeg -i
+- ffmpeg -i video.mp4 -b:v 221k videoout.mp4
 
 ### Change bitrate Audio + Video
-- ffmpeg -i
+- ffmpeg -i video.mp4 -b:v 221k -b:a 96k videoout.mp4
 
 
 
